@@ -1,0 +1,4 @@
+The source code is based on KEEL software (http://www.keel.es)
+
+Either OVO or OVA is available for the experimentation.
+User can also decide whether to use SMOTE preprocessing or just the original data
