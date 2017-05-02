@@ -1,0 +1,19 @@
+algorithm = C4.5 Decision Tree
+
+inputData = "./data/winequality-white/winequality-white-10-1tra.dat" "./data/winequality-white/winequality-white-10-1tra.dat" "./data/winequality-white/winequality-white-10-1tst.dat"
+outputData = "./output.tra" "./output.tst" "output.txt"
+
+pruned = TRUE
+confidence = 0.25
+instancesPerLeaf = 2
+Binarization = OVO
+Preprocessing = SMOTE
+
+
+
+# Additional parameters’ values: 
+Binarization = OVO
+Binarization = OVA
+ 
+Preprocessing = NONE
+Preprocessing = SMOTE
